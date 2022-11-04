@@ -718,7 +718,6 @@ class FormulaParser implements IFormulaParser
         }
 
         $processing_formula = $this->formula;
-        var_dump($processing_formula);
 
         // Begin a general parse
         while ((strstr($processing_formula, '(') || strstr($processing_formula, ')'))

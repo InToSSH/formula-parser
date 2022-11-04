@@ -7,8 +7,12 @@ Formula Parser
 
 Formula Parser is a library for parsing and evaluating mathematical formulas given as strings.
 
-Supports:
+Changes from original package
+-----------------------------
+- Added ability to use multi character variables, that may contain numbers aswell.
 
+Supports:
+---------
 * Operators: +, -, *, /, ^
 * Variables: x, y, z, ab, b1 
   - Variables can have multiple characters and numbers, but must start with a letter
