@@ -7,6 +7,10 @@
 		"name":  "Denis Simon",
 		"email": "denis.v.simon@gmail.com",
 		"role":  "Developer"
+	},{
+		"name":  "Jarda Tesar",
+		"email": "intossh@gmail.com",
+		"role":  "Developer"
 	}],
 	"require": {
 		"php": ">=5.4.0"

@@ -10,7 +10,8 @@ Formula Parser is a library for parsing and evaluating mathematical formulas giv
 Supports:
 
 * Operators: +, -, *, /, ^
-* Variables: x, y, z, a, b
+* Variables: x, y, z, ab, b1 
+  - Variables can have multiple characters and numbers, but must start with a letter
 * Numbers with decimal point '.'
 * Numbers in E notation
 * Constants: pi, e, Inf
@@ -26,7 +27,16 @@ Requires [PHP 5.4 or higher](http://php.net).
 To install with [Composer](https://getcomposer.org):
 
 ``` sh
-composer require denissimon/formula-parser
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/InToSSH/formula-parser"
+    }
+],
+"require": {
+    "denissimon/formula-parser": "dev-master"
+},
+
 ```
 
 Usage
